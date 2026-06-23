@@ -39,7 +39,7 @@ Threat_Inspector/
 ## Screenshots
 
 <p align="center">
-  <img src="screenshots/screenshot.png" alt="Threat Inspector Output" width="900">
+  <img src="screenshot.png" alt="Threat Inspector Output" width="900">
 </p>
 
 ## Installation
