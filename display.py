@@ -14,7 +14,7 @@ def display_cve(cve):
     print(f"Last Modified           : {cve['lastModified']}")
     print(f"Status                  : {cve['vulnStatus']}")
     print(f"Source                  : {cve['sourceIdentifier']}")
-    print(F"\nDescription: \n {textwrap.fill(cve['descriptions'][0]['value'], width=80)}")
+    print(F"\nDescription: \n {textwrap.fill(cve.get("descriptions")[0]['value'], width=80)}")
     print(f"\nReference: ")
     for ref in cve["references"][:3]:
         print(f"- {ref["url"]}")
